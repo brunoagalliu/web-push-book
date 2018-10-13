@@ -1,4 +1,15 @@
 /* H/T http://callmenick.com/post/css-toggle-switch-examples */
+@import "../../../../jekyll/styles/variables/colors.css";
+
+pre.is-hidden {
+  display: none;
+}
+
+.details-btn {
+  background-color: transparent;
+  color: var(--primary-link-color);
+}
+
 .toggle-switch {
   display: inline-block;
   width: 60px;

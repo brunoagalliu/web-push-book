@@ -20,7 +20,7 @@ const vapidKeys = {
 /**** END vapid-keys ****/
 
 webpush.setVapidDetails(
-  'mailto:web-push-book@gauntface.com',
+  'mailto:bruno.agalliu@gmail.com',
   vapidKeys.publicKey,
   vapidKeys.privateKey
 );
