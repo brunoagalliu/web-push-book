@@ -1,8 +1,8 @@
-const examplePage = '/demos/notification-examples/example-page.html';
+const examplePage = 'https://google.com';
 
 function openWindow(event) {
   /**** START notificationOpenWindow ****/
-  const examplePage = '/demos/notification-examples/example-page.html';
+  const examplePage = 'https://google.com';
   const promiseChain = clients.openWindow(examplePage);
   event.waitUntil(promiseChain);
   /**** END notificationOpenWindow ****/
